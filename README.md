@@ -1,6 +1,4 @@
-# tidydata
-
-## Repository for Tidy Data Course Project
+## Repository for the Tidy Data Course Project
 
 ### Contents
 This repository contains the following files:
