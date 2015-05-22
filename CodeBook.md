@@ -4,11 +4,23 @@
 ### The Data Set
 This assignment uses the data set from the Samsung 
 
-The original data set consists of 8 files, a training set and text set of 3 files each: x_, y_, subjects_; and a variable name file which defines 561 columns of data, and a variables label file.
+The original data set consists of 8 files, a training set and text set of 3 files each: x_, y_, subjects_; and a variable name file which defines 561 columns of data, and a activities label file.
+
+- x_test.txt, y_test.txt, subject_test.txt
+- x_train.txt, y_train.txt, subject_train.txt
+- activity_labels.txt
+- features.txt (variable names)
+
+These files will need to be in the working directory in order to properly run the assignment program.
+
+### The Program run_analysis.R
+
+The program run_analysis.R takes the above mentioned input files and transforms the data set to produce a 180 x 68 data set of variable means. The program is self contained and expects the input data files to be in its working directory.
+
+The original data set consists of observations of 6 different activities for 30 subjects.  These are stored in two separate vectors or lists.  The orignal data set also has 561 different measurements from which we extract 66 variables for mean() and std(). The subjects and activities are combined with the 66 measures resulting in 68 columns. The mean is calculated for each of the 66 variables, by subject (30), by activity (6).
+
 
 ### Transformations to the Data Set
-
-
 
 ### Naming of Feature Variables
 
