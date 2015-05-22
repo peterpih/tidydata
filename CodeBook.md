@@ -1,10 +1,6 @@
 
 ## Code Book for Gathering and Cleaning Data Final Project
 
-### Three
-## Two
-# One
-
 ### The Data Set
 This assignment uses the data set from the Samsung 
 
@@ -21,9 +17,9 @@ used. For example, when the original variable name used "Acc", the abbreviation 
 to "Accelerometer".
 
 
->- Acc becomes Accelerometer
->- Gyro becomes Gyroscope
->- Mag becomes Magnitude
+- Acc becomes Accelerometer
+- Gyro becomes Gyroscope
+- Mag becomes Magnitude
 
 Other modifications are:
 - Every variable begins with "Average", since the are all averages of the original data set
