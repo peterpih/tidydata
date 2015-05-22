@@ -27,9 +27,8 @@
 #
 #################################################################################################
 #
-# Set the directory where all the data and programs are
+# All input files need to be in the working directory
 #
-setwd("c:/R/tidydata")        # this may need to be adjusted depending on where the wd is
 rm(list=ls())
 #
 # Read in the "test" data set
@@ -78,7 +77,7 @@ mean_l <- grepl("-mean()", features$V2, fixed=TRUE)       # get the -mean()
 
 extracted_features<-features[std_l|mean_l,]
 #
-# Extract the necessary columns
+# Extract the necessary columns from the total
 #
 extracted_total <- x_total[std_l|mean_l]
 #
