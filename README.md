@@ -2,9 +2,10 @@
 
 ## Repository for Tidy Data Course Project
 
-This repository contains the following:
+### Contents
+This repository contains the following files:
 
-Input data files[1]
+Input data files:[1]
 - x_test.txt, y_test.txt, subject_test.txt, x_train.txt, y_train.txt, subject_train.txt
 - activity_labels.txt
 - features.txt
