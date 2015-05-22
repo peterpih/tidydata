@@ -13,6 +13,9 @@ The original data set consists of 8 files, a training set and text set of 3 file
 
 These files will need to be in the working directory in order to properly run the assignment program.
 
+There are 30 subjects total with 6 activities.
+The orignal data has multiple observations for each activity byt each subject. The output data set will have a summary measure (mean) for each of the activities.
+
 ### The Program run_analysis.R
 
 The program run_analysis.R takes the above mentioned input files and transforms the data set to produce a 180 x 68 data set of variable means. The program is self contained and expects the input data files to be in its working directory.
@@ -54,6 +57,6 @@ Other modifications are:
 
 ### Saved Data Set
 
-Two versions of the final data set have been saved: tidaydata.txt and tidydata_withlabels.txt.
-The original assignment specifically asks to save without labels: tidydata.txt
-The second version have the modified column names.
+The final data set is saved as tidaydata.txt.
+Whereas the original data set had multiple observations per activity per subject, this new data set has a unique observation of the activity mean for each measurement for each subject.
+
