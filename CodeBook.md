@@ -1,8 +1,9 @@
 
-This is the CodeBook.md
-## Code Book for the Final Program for Gathering and Cleaning Data
+## Code Book for the Code Project for
+## Gathering and Cleaning Data
 
-## Data Set
+
+## The Data Set
 This assignment uses the data set from the Samsung 
 
 ## Transformations to the Data Set
