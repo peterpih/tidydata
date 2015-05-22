@@ -21,9 +21,17 @@ The original data set consists of observations of 6 different activities for 30 
 
 The program is broken into various segments instead of separate scripts called by a top level script. It is thought this would make it easier to maintain and conveninently makes the program itself, self-contained.
 
-Step 1. it combines the test and train data sets including 
+Step 1. Combine the test and train data sets to create a 10299 x 66 dataframe of measurements and two 10299 x 1 vectors for activity and subject
 
-Step 2. Filters out
+Step 2. Combine the two vectors with the larger data set to create a 10299 x 68 data set
+
+Step 3. Extracts the required 66 columns from the 561 original columns.
+
+Step 4. Loop over subject (30) by activity (6) caluclating means to create a 180 x 68 output dataset
+
+Step 5. Modify the variable names to make more descriptive.
+
+Step 6. Save the new data set
 
 
 ### Transformations to the Data Set
