@@ -108,3 +108,9 @@ names(means_total) <- gsub("Gyro","Gyroscope", names(means_total))
 names(means_total) <- gsub("Mag","Magnitude", names(means_total))
 names(means_total) <- gsub("mean","Mean", names(means_total))
 names(means_total) <- gsub("std","Std", names(means_total))
+
+names(means_total) <- gsub("^t","Avgt", names(means_total))
+names(means_total) <- gsub("^f","Avgf", names(means_total))
+
+write.table(means_total, file="tidydataset.txt", row.names=FALSE)
+
