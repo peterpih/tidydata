@@ -16,13 +16,13 @@ The same syntax for the variables names was maintained, however more descriptive
 used. For example, when the original variable name used "Acc", the abbreviation has been changed
 to "Accelerometer".
 
-
+Additional changes:
 - Acc becomes Accelerometer
 - Gyro becomes Gyroscope
 - Mag becomes Magnitude
 
 Other modifications are:
-- Every variable begins with "Average", since the are all averages of the original data set
+- Every variable name begins with "Average", since the are all averages of the original data set
 - "mean" and "std" have been changed to "Mean" and "Std" to maintain camelling and readability
 - Where appropriate, the axis of measurement (X,Y,Z) has been kept, preceeded by a "-"
 
