@@ -19,12 +19,18 @@ The program run_analysis.R takes the above mentioned input files and transforms 
 
 The original data set consists of observations of 6 different activities for 30 subjects.  These are stored in two separate vectors or lists.  The orignal data set also has 561 different measurements from which we extract 66 variables for mean() and std(). The subjects and activities are combined with the 66 measures resulting in 68 columns. The mean is calculated for each of the 66 variables, by subject (30), by activity (6).
 
+The program is broken into various segments instead of separate scripts called by a top level script. It is thought this would make it easier to maintain and conveninently makes the program itself, self-contained.
+
+Step 1. it combines the test and train data sets including 
+
+Step 2. Filters out
+
 
 ### Transformations to the Data Set
 
 ### Naming of Feature Variables
 
-The same syntax for the variables names was maintained, however more descriptive naming has been
+The same syntax as the original variables names was maintained, however more descriptive naming has been
 used. For example, when the original variable name used "Acc", the abbreviation has been changed
 to "Accelerometer".
 
