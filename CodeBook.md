@@ -39,6 +39,13 @@ Step 6. Save the new data set
 
 ### Transformations to the Data Set
 
+Certain major modifications were made to the original data set:
+
+- The "test" and "train" data sets were merged into a single combined data set. This formed the original primary data set which was then split into these two data sets
+- Certain specified variables were extracted from the combined data set, variables containing mean() and std() forming a subset of 66 variables from the original 561 variables
+- Feature variable names were expanded for readability
+- Activity labels were were added in place if activity id codes for readability
+
 ### Naming of Feature Variables
 
 The same syntax as the original variables names was maintained, however more descriptive naming has been
