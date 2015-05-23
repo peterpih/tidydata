@@ -4,21 +4,22 @@
 This repository contains the following files:
 
 Input data files:[1]
-- x_test.txt, y_test.txt, subject_test.txt, x_train.txt, y_train.txt, subject_train.txt
-- activity_labels.txt
-- features.txt - list of the original variable names
+- x_test.txt, x_train.txt - data set of 561 variables with multiple rows for activity observations
+- y_test.txt, y_train.txt - a vector of activity ids with values between 1:6
+- subject_test.txt, subject_train.txt - a vector if subject ids wit values 1:30
+- activity_labels.txt - list of the 6 activities eahc of the 30 subjects performed
+- features.txt - list of the original 561 variable names
 
 Ouput file:
 - tidydata.txt
 
 Documentation files:
-- **features_info.txt**[1]
 - **CodeBook.md**
-- README.txt (from the original data set)[1] describes the original study where these data sets were obtained
-- features_info.txt (from the original data set)[1] describes the original variable names. These names were then transformed into more descriptive names in the final tidy data set: https://github.com/peterpih/tidydata/edit/master/CodeBook.md
+- **README.txt** (from the original data set)[1] describes the original study where these data sets were obtained
+- **features_info.txt** (from the original data set)[1] describes the original variable names. These names were then transformed into more descriptive names in the final tidy data set: https://github.com/peterpih/tidydata/edit/master/CodeBook.md
 
 R Program:
-- **run_analysis.R** This is the program to run on the input files. It transforms the original data set into a smaller "tidier" dataset with variables of interest.  The program is self-contained and assumes the data files are in its working directory. The output is "tidydata.txt".  Please refer the CodeBook.md for further information on the files and their usage.
+- **run_analysis.R** This is the program to run on the input files. It transforms the original data set into a smaller "tidier" dataset with variables of interest.  The program is self-contained and assumes the data files are in its working directory. The output is "tidydata.txt".  With the input data files in its working directory, the user should be able to run "run_analysis.R" with the result being the output file "tidydata.txt". Please refer the CodeBook.md for further information on the files and their usage.
 
 
 [1] These data and documentation files are from:
