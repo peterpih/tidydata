@@ -1,5 +1,7 @@
 ## Repository for the Tidy Data Course Project
 
+This repository contains files and programs for the course project for Coursera's Gathering and Cleaning Data course
+
 ### Contents of this repository
 This repository contains the following files:
 
