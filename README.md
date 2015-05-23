@@ -15,9 +15,7 @@ Documentation files:
 - **features_info.txt**[1]
 - **CodeBook.md**
 - README.txt (from the original data set)[1] describes the original study where these data sets were obtained
-- features_info.txt (from the original data set)[1] describes the original variable names. These names were then transformed into more descriptive names in the final tidy data set
-
-https://github.com/peterpih/tidydata/edit/master/CodeBook.md
+- features_info.txt (from the original data set)[1] describes the original variable names. These names were then transformed into more descriptive names in the final tidy data set: https://github.com/peterpih/tidydata/edit/master/CodeBook.md
 
 R Program:
 - **run_analysis.R** This is the program to run on the input files. It transforms the original data set into a smaller "tidier" dataset with variables of interest.  The program is self-contained and assumes the data files are in its working directory. The output is "tidydata.txt".  Please refer the CodeBook.md for further information on the files and their usage.
