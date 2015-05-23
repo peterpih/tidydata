@@ -16,7 +16,7 @@ These files will need to be in the working directory in order to properly run th
 There are 30 subjects total with 6 activities.
 The orignal data has multiple observations for each activity byt each subject. The output data set will have a summary measure (mean) for each of the activities.
 
-### The Program run_analysis.R
+### The Program: run_analysis.R
 
 The program run_analysis.R takes the above mentioned input files and transforms the data set to produce a 180 x 68 data set of variable means. The program is self contained and expects the input data files to be in its working directory.
 
