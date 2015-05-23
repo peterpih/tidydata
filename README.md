@@ -1,6 +1,6 @@
 ## Repository for the Tidy Data Course Project
 
-### Contents
+### Contents of this repository
 This repository contains the following files:
 
 Input data files:[1]
