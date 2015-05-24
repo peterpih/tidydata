@@ -6,11 +6,11 @@ This repository contains files and programs for the course project for Coursera'
 This repository contains the following files:
 
 Input data files:[1]
-- x_test.txt, x_train.txt - data set of 561 variables with multiple rows for activity observations
+- x_test.txt, x_train.txt - data set of 561 variables(features) with multiple rows for activity observations
 - y_test.txt, y_train.txt - a vector of activity ids with values between 1:6
-- subject_test.txt, subject_train.txt - a vector if subject ids wit values 1:30
-- activity_labels.txt - list of the 6 activities eahc of the 30 subjects performed
-- features.txt - list of the original 561 variable names
+- subject_test.txt, subject_train.txt - a vector of subject ids with values 1:30
+- activity_labels.txt - list of the 6 activities each of the 30 subjects performed
+- features.txt - list of the original 561 variables(features) names
 
 Solution data set file:
 - **tidydata.txt** This file was written using write.file("tidydataset.txt", row.names=FALSE) and should be read in using read.file("tidydataset.txt")
