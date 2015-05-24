@@ -134,14 +134,75 @@ Whereas the original data set had multiple observations per activity per subject
 
 ### List of Variables(Features)
 
-- 1 Subject - subject id
+
+- 1 Subject - subject id, with values 1 to 30
 - 2 Activity - one of 6 activities performed by each subject
-- 3 AverageTimeBodyAccelerometerMean_X  average of subject linear acceleration along X axis
-- 4 AverageTimeBodyAccelerometerMean_Y  average of subject linear acceleration along Y axis
-- 5 AverageTimeBodyAccelerometerMean_Z  average of subject linear acceleration along Z axis
-- 6 AverageTimeBodyAccelerometerStd_X  standard deviation of subject linear acceleration along X axis
-- 7 AverageTimeBodyAccelerometerStd_Y  standard deviation of subject linear acceleration along Y axis
-- 8 AverageTimeBodyAccelerometerStd_Z  standard deviation of subject linear acceleration along Z axis
+- 3 AverageTimeBodyAccelerometerMean_X - average of subject linear acceleration along X axis (gravity units)
+- 4 AverageTimeBodyAccelerometerMean_Y - average of subject linear acceleration along Y axis (gravity units)
+- 5 AverageTimeBodyAccelerometerMean_Z - average of subject linear acceleration along Z axis (gravity units)
+- 6 AverageTimeBodyAccelerometerStd_X - standard deviation of subject linear acceleration along X axis (gravity units)
+- 7 AverageTimeBodyAccelerometerStd_Y - standard deviation of subject linear acceleration along Y axis (gravity units)
+- 8 AverageTimeBodyAccelerometerStd_Z - standard deviation of subject linear acceleration along Z axis (gravity units)
+- 9 AverageTimeGravityAccelerometerMean_X - average of gravity linear acceleration along X axis (gravity units)
+- 10 AverageTimeGravityAccelerometerMean_Y - average of gravity linear acceleration along Y axis (gravity units)
+- 11 AverageTimeGravityAccelerometerMean_Z - average of gravity linear acceleration along Z axis (gravity units)
+- 12 AverageTimeGravityAccelerometerStd_X - standard deviation of gravity linear acceleration along X axis (gravity units)
+- 13 AverageTimeGravityAccelerometerStd_Y - standard deviation of gravity linear acceleration along Y axis (gravity units)
+- 14 AverageTimeGravityAccelerometerStd_Z - standard deviation of gravity linear acceleration along Z axis (gravity units)
+- 15 AverageTimeBodyAccelerometerJerkMean_X - average of change in subject linear acceleration along X axis (gravity units)
+- 16 AverageTimeBodyAccelerometerJerkMean_Y - average of change in subject linear acceleration along Y axis (gravity units)
+- 17 AverageTimeBodyAccelerometerJerkMean_Z - average of change in subject linear acceleration along Z axis (gravity units)
+- 18 AverageTimeBodyAccelerometerJerkStd_X - standard deviation of change in subject linear acceleration along X axis (gravity units)
+- 19 AverageTimeBodyAccelerometerJerkStd_Y - standard deviation of change in subject linear acceleration along Y axis (gravity units)
+- 20 AverageTimeBodyAccelerometerJerkStd_Z - standard deviation of change in subject linear acceleration along Z axis (gravity units)
+- 21 AverageTimeBodyGyroscopeMean_X - average of subject angular acceleration along X axis (radians/second)
+- 22 AverageTimeBodyGyroscopeMean_Y - average of subject angular acceleration along Y axis (radians/second)
+- 23 AverageTimeBodyGyroscopeMean_Z - average of subject angular acceleration along Z axis (radians/second)
+- 24 AverageTimeBodyGyroscopeStd_X - standard deviation of subject angular acceleration along X axis (radians/second)
+- 25 AverageTimeBodyGyroscopeStd_Y - standard deviation of subject angular acceleration along Y axis (radians/second)
+- 26 AverageTimeBodyGyroscopeStd_Z - standard deviation of subject angular acceleration along Z axis (radians/second)
+- 27 AverageTimeBodyGyroscopeJerkMean_X - average of change in subject angular acceleration along X axis (radians/second)
+- 28 AverageTimeBodyGyroscopeJerkMean_Y - average of change in subject angular acceleration along Y axis (radians/second)
+- 29 AverageTimeBodyGyroscopeJerkMean_Z - average of change in subject angular acceleration along Z axis (radians/second)
+- 30 AverageTimeBodyGyroscopeJerkStd_X - standard deviation of change in subject angular acceleration along X axis (radians/second)
+- 31 AverageTimeBodyGyroscopeJerkStd_Y - standard deviation of change in subject angular acceleration along Y axis (radians/second)
+- 32 AverageTimeBodyGyroscopeJerkStd_Z - standard deviation of change in subject angular acceleration along Z axis (radians/second)
+- 33 AverageTimeBodyAccelerometerMagnitudeMean - average of magnitude of subject linear acceleration (gravity units)
+- 34 AverageTimeBodyAccelerometerMagnitudeStd - standard deviation of magnitude of subject linear acceleration (gravity units)
+- 35 AverageTimeGravityAccelerometerMagnitudeMean - average of magnitude of gravity linear acceleration (gravity units)
+- 36 AverageTimeGravityAccelerometerMagnitudeStd - standard deviation of magnitude of gravity linear acceleration (gravity units)
+- 37 AverageTimeBodyAccelerometerJerkMagnitudeMean - average of change in magnitude of subject linear acceleration (gravity units)
+- 38 AverageTimeBodyAccelerometerJerkMagnitudeStd - standard deviation of change in magnitude of subject linear acceleration (gravity units)
+- 39 AverageTimeBodyGyroscopeMagnitudeMean - average of magnitude of subject angular acceleration (radians/second)
+- 40 AverageTimeBodyGyroscopeMagnitudeStd - standard deviation of magnitude of subject angular acceleration (radians/second)
+- 41 AverageTimeBodyGyroscopeJerkMagnitudeMean - average of change in magnitude of subject angular acceleration (radians/second)
+- 42 AverageTimeBodyGyroscopeJerkMagnitudeStd - standard deviation of change in magnitude of subject angular acceleration (radians/second)
+- 43 AverageFreqBodyAccelerometerMean_X - average of subject linear acceleration frequency along X axis (cycles per time)
+- 44 AverageFreqBodyAccelerometerMean_Y - average of subject linear acceleration frequency along Y axis (cycles per time)
+- 45 AverageFreqBodyAccelerometerMean_Z - average of subject linear acceleration frequency along Z axis (cycles per time)
+- 46 AverageFreqBodyAccelerometerStd_X - standard deviation of subject linear acceleration frequency along X axis (cycles per time)
+- 47 AverageFreqBodyAccelerometerStd_Y - standard deviation of subject linear acceleration frequency along Y axis (cycles per time)
+- 48 AverageFreqBodyAccelerometerStd_Z - standard deviation of subject linear acceleration frequency along Z axis (cycles per time)
+- 49 AverageFreqBodyAccelerometerJerkMean_X - average of change in subject linear acceleration frequency along X axis (cycles per time)
+- 50 AverageFreqBodyAccelerometerJerkMean_Y - average of change in subject linear acceleration frequency along Y axis (cycles per time)
+- 51 AverageFreqBodyAccelerometerJerkMean_Z - average of change in subject linear acceleration frequency along Z axis (cycles per time)
+- 52 AverageFreqBodyAccelerometerJerkStd_X - standard deviation of change in subject linear acceleration frequency along X axis (cycles per time)
+- 53 AverageFreqBodyAccelerometerJerkStd_Y - standard deviation of change in subject linear acceleration frequency along Y axis (cycles per time)
+- 54 AverageFreqBodyAccelerometerJerkStd_Z - standard deviation of change in subject linear acceleration frequency along Z axis (cycles per time)
+- 55 AverageFreqBodyGyroscopeMean_X - average of subject angular acceleration frequency in X axis (cycles per time)
+- 56 AverageFreqBodyGyroscopeMean_Y - average of subject angular acceleration frequency in Y axis (cycles per time)
+- 57 AverageFreqBodyGyroscopeMean_Z - average of subject angular acceleration frequency in Z axis (cycles per time)
+- 58 AverageFreqBodyGyroscopeStd_X - standard deviation of subject angular acceleration frequency in X axis (cycles per time)
+- 59 AverageFreqBodyGyroscopeStd_Y - standard deviation of subject angular acceleration frequency in Y axis (cycles per time)
+- 60 AverageFreqBodyGyroscopeStd_Z - standard deviation of subject angular acceleration frequency in Z axis (cycles per time)
+- 61 AverageFreqBodyAccelerometerMagnitudeMean - average of subject linear acceleration magnitude frequency (cycles per time)
+- 62 AverageFreqBodyAccelerometerMagnitudeStd  - standard deviation of subject linear acceleration magnitude frequency (cycles per time)
+- 63 AverageFreqBodyBodyAccelerometerJerkMagnitudeMean - average of change in subject linear acceleration magnitude frequency (cycles per time)
+- 64 AverageFreqBodyBodyAccelerometerJerkMagnitudeStd - standard deviation of subject linear acceleration magnitude frequency (cycles per time)
+- 65 AverageFreqBodyBodyGyroscopeMagnitudeMean - average of subject angular acceleration magnitude frequency (cycles per time)
+- 66 AverageFreqBodyBodyGyroscopeMagnitudeStd - standard deviation of subject angular acceleration magnitude frequency (cycles per time)
+- 67 AverageFreqBodyBodyGyroscopeJerkMagnitudeMean - average of change in subject angular acceleration magnitude frequency (cycles per time)
+- 68 AverageFreqBodyBodyGyroscopeJerkMagnitudeStd - standard deviation of change in subject angular acceleration magnitude frequency (cycles per time)
 
 
 
