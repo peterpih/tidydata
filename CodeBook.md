@@ -1,21 +1,25 @@
 
 ## Code Book for Gathering and Cleaning Data Final Project
 
-### The Data Set
+### Objective
+
 This assignment uses the data set from studying using smartphones to monitor human activity[1]
 https://github.com/peterpih/tidydata/blob/master/README.txt
 
-The original data set consists of 8 files, a training set and text set of 3 files each: x_, y_, subjects_; and a variable name file which defines 561 columns of data, and a activities label file.
+### The Data Set
 
-- x_test.txt, y_test.txt, subject_test.txt
-- x_train.txt, y_train.txt, subject_train.txt
-- activity_labels.txt
-- features.txt (variable names)
+The original data set consists of 8 files, a training set, a test set, a variable name file which defines 561 columns of data, and an activities label file which defines 6 activities.
+
+- x_test.txt, y_test.txt, subject_test.txt  (3 files)
+- x_train.txt, y_train.txt, subject_train.txt  (3 files)
+- features.txt (561 variable names) (1 file)
+- activity_labels.txt (6 activity labels) (1 file)
 
 These files will need to be in the working directory in order to properly run the assignment program.
 
-There are 30 subjects total with 6 activities.
-The orignal data has multiple observations for each activity byt each subject. The output data set will have a summary measure (mean) for each of the activities.
+There are 30 subjects in total performing 6 activities.
+The orignal data has multiple observations for each activity by each subject.
+The output data set is a summary measure (mean) for each of the 6 activities by each subject per row (180 rows)
 
 ### The Program: run_analysis.R
 
