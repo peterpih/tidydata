@@ -2,7 +2,7 @@
 ## Code Book for Gathering and Cleaning Data Final Project
 
 ### The Data Set
-This assignment uses the data set from the Samsung 
+This assignment uses the data set from studying using smartphones to monitor human activity[1]
 https://github.com/peterpih/tidydata/blob/master/README.txt
 
 The original data set consists of 8 files, a training set and text set of 3 files each: x_, y_, subjects_; and a variable name file which defines 561 columns of data, and a activities label file.
@@ -73,3 +73,8 @@ https://github.com/peterpih/tidydata/blob/master/features_info.txt
 The final data set is saved as tidaydata.txt.
 Whereas the original data set had multiple observations per activity per subject, this new data set has a unique observation of the activity mean for each measurement for each subject.
 
+### Footnotes
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human 
+Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. 
+International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
