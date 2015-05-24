@@ -71,7 +71,9 @@ Modifications to variable names:
 - Every variable name begins with "Mean", since the resulting data set are all averages of the original data set
 - Where appropriate, the axis of measurement (X,Y,Z) has been kept, preceeded by a "_" for easier reference
 
-The naming syntax for variables follows:
+The naming for the variables uses the following syntax:
+
+("Mean")("Time"|"Freq")("Body"|"Gravity")("Accelerometer"|"Gyroscope")(""|"Jerk"|"Magnitude")("Mean"|"Std")(""|"_X"|"_Y"|"_Z")
 
 
 Additional information for the original data set can be found here:
