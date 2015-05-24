@@ -59,6 +59,10 @@ The same syntax as the original variables names was maintained, however more des
 used. For example, when the original variable name used "Acc", the abbreviation has been changed
 to "Accelerometer".
 
+Original Name    |    Modified Name
+---------------------------------------
+Test 1           |   Test 2
+
 Modifications to variable names:
 - "Acc" becomes "Accelerometer"
 - "Gyro" becomes "Gyroscope"
@@ -71,9 +75,10 @@ Modifications to variable names:
 - Every variable name begins with "Mean", since the resulting data set are all averages of the original data set
 - Where appropriate, the axis of measurement (X,Y,Z) has been kept, preceeded by a "_" for easier reference
 
-The naming for the variables uses the following syntax:
+The naming for the variables uses the following syntax in two parts:
 
-("Mean")("Time"|"Freq")("Body"|"Gravity")("Accelerometer"|"Gyroscope")
+Part 1: ("Mean")("Time"|"Freq")("Body"|"Gravity")("Accelerometer"|"Gyroscope")
+
 "Mean" - all the variables in the solution data set are means
 "Time" or "Freq" - measurements are either with respect to time or frequency
 "Body" or "Gravity" - measurements are either made on the subjects body, or using gravity as a baseline
@@ -83,12 +88,32 @@ MeanFreqBodyGyroscope - average of body measurements with respect to frequency u
 MeanTimeGravityAccelerometer - average of gravity measurements with respect to time using an accelerometer
 
 > NOTE: There are only 8 measurements for gravity, they are all with respect to time and only measured with an accelerometer
-> MeanTimeGravityAccelerometerMean_X          MeanTimeGravityAccelerometerMean_Y
-> MeanTimeGravityAccelerometerMean_Z          MeanTimeGravityAccelerometerStd_X
-> MeanTimeGravityAccelerometerStd_Y           MeanTimeGravityAccelerometerStd_Z
-> MeanTimeGravityAccelerometerMagnitudeMean   MeanTimeGravityAccelerometerMagnitudeStd
+> MeanTimeGravityAccelerometerMean_X
+> MeanTimeGravityAccelerometerMean_Y
+> MeanTimeGravityAccelerometerMean_Z
+> MeanTimeGravityAccelerometerStd_X
+> MeanTimeGravityAccelerometerStd_Y
+> MeanTimeGravityAccelerometerStd_Z
+> MeanTimeGravityAccelerometerMagnitudeMean>
+> MeanTimeGravityAccelerometerMagnitudeStd
 
-(""|"Jerk"|"Magnitude"|"JerkMagnitude")("Mean"|"Std")(""|"_X"|"_Y"|"_Z")
+Additionally, the following is appended to Part 1 names:
+
+Part 2: (""|"Jerk"|"Magnitude"|"JerkMagnitude")("Mean"|"Std")(""|"_X"|"_Y"|"_Z")
+
+"Jerk" - the change in acceleration(linear) or angular(rotation) momentum
+"Magnitude" - the amount of force
+"JerkMagnitude" - the change in the amount of force
+"Mean" - the mean(average) measurements
+"Std" - the standard deviation or the measurements
+"_X" or "_Y", or "_Z" - the Euclidian direction of force
+"" - an empty(skipped) naming element
+
+For example:
+
+MeanTimeBodyAccelerometerMean_Z - average linear body acceleration measurement along the Z axis
+MeanTimeBodyAccelerometerJerkMean_X - change in average linear body acceleration measurement along the Z axis
+
 
 
 Additional information for the original data set can be found here:
