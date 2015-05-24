@@ -73,7 +73,22 @@ Modifications to variable names:
 
 The naming for the variables uses the following syntax:
 
-("Mean")("Time"|"Freq")("Body"|"Gravity")("Accelerometer"|"Gyroscope")(""|"Jerk"|"Magnitude")("Mean"|"Std")(""|"_X"|"_Y"|"_Z")
+("Mean")("Time"|"Freq")("Body"|"Gravity")("Accelerometer"|"Gyroscope")
+"Mean" - all the variables in the solution data set are means
+"Time" or "Freq" - measurements are either with respect to time or frequency
+"Body" or "Gravity" - measurements are either made on the subjects body, or using gravity as a baseline
+"Accelerometer" or "Gyroscope" - the device used to take measurement, accelerometer being linear, gyroscope being angular
+For example:
+MeanFreqBodyGyroscope - average of body measurements with respect to frequency using an gyroscope
+MeanTimeGravityAccelerometer - average of gravity measurements with respect to time using an accelerometer
+
+> NOTE: There are only 8 measurements for gravity, they are all with respect to time and only measured with an accelerometer
+> MeanTimeGravityAccelerometerMean_X          MeanTimeGravityAccelerometerMean_Y
+> MeanTimeGravityAccelerometerMean_Z          MeanTimeGravityAccelerometerStd_X
+> MeanTimeGravityAccelerometerStd_Y           MeanTimeGravityAccelerometerStd_Z
+> MeanTimeGravityAccelerometerMagnitudeMean   MeanTimeGravityAccelerometerMagnitudeStd
+
+(""|"Jerk"|"Magnitude"|"JerkMagnitude")("Mean"|"Std")(""|"_X"|"_Y"|"_Z")
 
 
 Additional information for the original data set can be found here:
