@@ -59,10 +59,6 @@ The same syntax as the original variables names was maintained, however more des
 used. For example, when the original variable name used "Acc", the abbreviation has been changed
 to "Accelerometer".
 
-Original Name    |    Modified Name
----------------------------------------
-Test 1           |   Test 2
-
 Modifications to variable names:
 - "Acc" becomes "Accelerometer"
 - "Gyro" becomes "Gyroscope"
@@ -71,11 +67,13 @@ Modifications to variable names:
 - "std" becomes "Std"  (maintaining camelling and readability)
 - "f" prefix becomes "Freq"  (maintaining camelling and readability)
 - "t" prefix becomes "Time"  (maintaining camlling and readability)
-- "BodyBody" becomes "Body"  (it was thought this was typed in error)
-- Every variable name begins with "Mean", since the resulting data set are all averages of the original data set
+- "BodyBody" becomes "Body"  (it was thought this was typing error)
+- Every variable name has been prepended with  "Mean", since the resulting data set are all averages of the original data set
 - Where appropriate, the axis of measurement (X,Y,Z) has been kept, preceeded by a "_" for easier reference
 
-The naming for the variables uses the following syntax in two parts:
+NOTE: in the original data set, axis of measurement were seperated with "-" which might cause computation errors
+
+Variable names use the following syntax.  This reflects the naming covention from the original data set[1]. This convention is kept for ease of comparison with the original data set.
 
 Part 1: ("Mean")("Time"|"Freq")("Body"|"Gravity")("Accelerometer"|"Gyroscope")
 
@@ -114,9 +112,11 @@ For example:
 MeanTimeBodyAccelerometerMean_Z - average linear body acceleration measurement along the Z axis
 MeanTimeBodyAccelerometerJerkMean_X - change in average linear body acceleration measurement along the Z axis
 
-
+> NOTE: Units of measurement have not been changed or rebased from the original data set.
+> For example, readings from the accelerometer are in standard gravity "g" units, readings from gyroscopes are in radians/sec
 
 Additional information for the original data set can be found here:
+
 https://github.com/peterpih/tidydata/blob/master/features_info.txt
 
 
