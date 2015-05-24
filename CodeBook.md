@@ -125,9 +125,26 @@ https://github.com/peterpih/tidydata/blob/master/features_info.txt
 
 ### Saved Data Set
 
-The solution data set is saved as tidydata.txt.
+The solution data set is saved as "tidydataset.txt".
+It can be loaded using: data <- read.table("tidaydataset.txt")
+
+The tidy variable(features) are contained in the first row of the data set.
 
 Whereas the original data set had multiple observations per activity per subject, this new data set has a unique summary(mean) observation for each measurement(feature) in each column and for each activity and each subject per row, as denotes a "tidy" data set.
+
+### List of Variables(Features)
+
+1 Subject   subject id
+2 Activity  one of 6 activities performed by each subject
+3 AverageTimeBodyAccelerometerMean_X  average of subject linear acceleration along X axis
+4 AverageTimeBodyAccelerometerMean_Y  average of subject linear acceleration along Y axis
+5 AverageTimeBodyAccelerometerMean_Z  average of subject linear acceleration along Z axis
+6 AverageTimeBodyAccelerometerStd_X  standard deviation of subject linear acceleration along X axis
+7 AverageTimeBodyAccelerometerStd_Y  standard deviation of subject linear acceleration along Y axis
+8 AverageTimeBodyAccelerometerStd_Z  standard deviation of subject linear acceleration along Z axis
+
+
+
 
 ### Footnotes
 
