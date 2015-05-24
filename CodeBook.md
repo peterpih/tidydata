@@ -134,6 +134,7 @@ Whereas the original data set had multiple observations per activity per subject
 
 ### List of Variables(Features)
 
+Column numbers and variable(feature) names.
 
 - 1 Subject - subject id, with values 1 to 30
 - 2 Activity - one of 6 activities performed by each subject
