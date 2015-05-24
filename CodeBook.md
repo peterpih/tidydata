@@ -77,13 +77,15 @@ Variable names use the following syntax.  This reflects the naming covention fro
 
 Part 1: ("Mean")("Time"|"Freq")("Body"|"Gravity")("Accelerometer"|"Gyroscope")
 
-"Mean" - all the variables in the solution data set are means
-"Time" or "Freq" - measurements are either with respect to time or frequency
-"Body" or "Gravity" - measurements are either made on the subjects body, or using gravity as a baseline
-"Accelerometer" or "Gyroscope" - the device used to take measurement, accelerometer being linear, gyroscope being angular
+- "Mean" - all the variables in the solution data set are means
+- "Time" or "Freq" - measurements are either with respect to time or frequency
+- "Body" or "Gravity" - measurements are either made on the subjects body, or using gravity as a baseline
+- "Accelerometer" or "Gyroscope" - the device used to take measurement, accelerometer being linear, gyroscope being angular
+
 For example:
-MeanFreqBodyGyroscope - average of body measurements with respect to frequency using an gyroscope
-MeanTimeGravityAccelerometer - average of gravity measurements with respect to time using an accelerometer
+
+- MeanFreqBodyGyroscope - average of body measurements with respect to frequency using an gyroscope
+- MeanTimeGravityAccelerometer - average of gravity measurements with respect to time using an accelerometer
 
 > NOTE: There are only 8 measurements for gravity, they are all with respect to time and only measured with an accelerometer
 > MeanTimeGravityAccelerometerMean_X
@@ -99,18 +101,19 @@ Additionally, the following is appended to Part 1 names:
 
 Part 2: (""|"Jerk"|"Magnitude"|"JerkMagnitude")("Mean"|"Std")(""|"_X"|"_Y"|"_Z")
 
-"Jerk" - the change in acceleration(linear) or angular(rotation) momentum
-"Magnitude" - the amount of force
-"JerkMagnitude" - the change in the amount of force
-"Mean" - the mean(average) measurements
-"Std" - the standard deviation or the measurements
-"_X" or "_Y", or "_Z" - the Euclidian direction of force
-"" - an empty(skipped) naming element
+- "Jerk" - the change in acceleration(linear) or angular(rotation) momentum
+- "Magnitude" - the amount of force
+- "JerkMagnitude" - the change in the amount of force
+- "Mean" - the mean(average) measurements
+- "Std" - the standard deviation or the measurements
+- "_X" or "_Y", or "_Z" - the Euclidian direction of force
+- "" - an empty(skipped) naming element
 
 For example:
 
-MeanTimeBodyAccelerometerMean_Z - average linear body acceleration measurement along the Z axis
-MeanTimeBodyAccelerometerJerkMean_X - change in average linear body acceleration measurement along the Z axis
+- MeanTimeBodyAccelerometerMean_Z - average linear body acceleration measurement along the Z axis
+- MeanTimeBodyAccelerometerMean - average linear body acceleration
+- MeanTimeBodyAccelerometerJerkMean_X - change in average linear body acceleration measurement along the Z axis
 
 > NOTE: Units of measurement have not been changed or rebased from the original data set.
 > For example, readings from the accelerometer are in standard gravity "g" units, readings from gyroscopes are in radians/sec
