@@ -6,11 +6,11 @@
 This assignment uses the data set from studying using smartphones to monitor human activity[1]
 https://github.com/peterpih/tidydata/blob/master/README.txt
 
-The objective of this Final Project is to take a larger data set and create a smaller more focussed data set with: summary variables of interest and more conveniently names variables using a script .R program which requires no intervention.
+The objective of this Final Project is to take a larger data set and create a smaller more "tidy" data set with: summary variables of interest, more descriptive variable names, and single activity observations per row, using an .R script program which requires no intervention.
 
 ### The Data Set
 
-The original data set consists of 8 files, a "train" set, a "test" set, a variable name file which defines 561 columns of data, and an activities label file which defines 6 activities.
+The original data set consists of 8 files, a "train" set, a "test" set, a variable name file which defines 561 columns of data(features), and an activities label file which defines 6 activities.
 
 - x_test.txt, y_test.txt, subject_test.txt  (3 files)
 - x_train.txt, y_train.txt, subject_train.txt  (3 files)
