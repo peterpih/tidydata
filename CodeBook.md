@@ -134,14 +134,14 @@ Whereas the original data set had multiple observations per activity per subject
 
 ### List of Variables(Features)
 
-1 Subject   subject id
-2 Activity  one of 6 activities performed by each subject
-3 AverageTimeBodyAccelerometerMean_X  average of subject linear acceleration along X axis
-4 AverageTimeBodyAccelerometerMean_Y  average of subject linear acceleration along Y axis
-5 AverageTimeBodyAccelerometerMean_Z  average of subject linear acceleration along Z axis
-6 AverageTimeBodyAccelerometerStd_X  standard deviation of subject linear acceleration along X axis
-7 AverageTimeBodyAccelerometerStd_Y  standard deviation of subject linear acceleration along Y axis
-8 AverageTimeBodyAccelerometerStd_Z  standard deviation of subject linear acceleration along Z axis
+- 1 Subject   subject id
+- 2 Activity  one of 6 activities performed by each subject
+- 3 AverageTimeBodyAccelerometerMean_X  average of subject linear acceleration along X axis
+- 4 AverageTimeBodyAccelerometerMean_Y  average of subject linear acceleration along Y axis
+- 5 AverageTimeBodyAccelerometerMean_Z  average of subject linear acceleration along Z axis
+- 6 AverageTimeBodyAccelerometerStd_X  standard deviation of subject linear acceleration along X axis
+- 7 AverageTimeBodyAccelerometerStd_Y  standard deviation of subject linear acceleration along Y axis
+- 8 AverageTimeBodyAccelerometerStd_Z  standard deviation of subject linear acceleration along Z axis
 
 
 
