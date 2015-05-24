@@ -5,12 +5,12 @@ This repository contains files and programs for the course project for Coursera'
 ### Contents of this repository
 This repository contains the following files:
 
-Input data files:[1]
-- x_test.txt, x_train.txt - data set of 561 variables(features) with multiple rows for activity observations
-- y_test.txt, y_train.txt - a vector of activity ids with values between 1:6
-- subject_test.txt, subject_train.txt - a vector of subject ids with values 1:30
-- activity_labels.txt - list of the 6 activities each of the 30 subjects performed
-- features.txt - list of the original 561 variables(features) names
+Input data files, of which there are eight:[1]
+- **x_test.txt**, **x_train.txt** - data set of 561 variables(features) with multiple rows for activity observations
+- **y_test.txt**, **y_train.txt** - a vector of activity ids with values between 1:6
+- **subject_test.txt**, **subject_train.txt** - a vector of subject ids with values 1:30 for each of the 30 subjects
+- **activity_labels.txt** - list of the 6 activities each of the 30 subjects performed
+- **features.txt** - list of the original 561 variables(features) names
 
 Solution data set file:
 - **tidydata.txt** This file was written using write.file("tidydataset.txt", row.names=FALSE) and should be read in using read.file("tidydataset.txt")
@@ -23,6 +23,7 @@ Documentation files:
 R Program:
 - **run_analysis.R** This is the program to run on the input files. It transforms the original data set into a smaller "tidier" dataset with variables of interest.  The program is self-contained and assumes the data files are in its working directory. The output is "tidydata.txt".  With the input data files in its working directory, the user should be able to run "run_analysis.R" with the result being the output file "tidydata.txt". Please refer the CodeBook.md for further information on the files and their usage.
 
+NOTE: The input data files need to be in the working directory of run_analysis.R to run successfully
 
 **Footnotes**
 
