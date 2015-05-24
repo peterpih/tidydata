@@ -3,6 +3,7 @@
 
 ### The Data Set
 This assignment uses the data set from the Samsung 
+https://github.com/peterpih/tidydata/blob/master/README.txt
 
 The original data set consists of 8 files, a training set and text set of 3 files each: x_, y_, subjects_; and a variable name file which defines 561 columns of data, and a activities label file.
 
@@ -45,6 +46,7 @@ Certain major modifications were made to the original data set:
 - Certain specified variables were extracted from the combined data set, variables containing mean() and std() forming a subset of 66 variables from the original 561 variables
 - Feature variable names were expanded for readability
 - Activity labels were were added in place if activity id codes for readability
+- None of the units of measurement have been changed from the original data set
 
 ### Naming of Feature Variables
 
@@ -58,9 +60,13 @@ Additional changes:
 - Mag becomes Magnitude
 
 Other modifications are:
-- Every variable name begins with "Average", since the are all averages of the original data set
+- Every variable name begins with "Average", since they are all averages of the original data set
 - "mean" and "std" have been changed to "Mean" and "Std" to maintain camelling and readability
-- Where appropriate, the axis of measurement (X,Y,Z) has been kept, preceeded by a "-"
+- Where appropriate, the axis of measurement (X,Y,Z) has been kept, preceeded by a "_"
+
+Additional information for the original data set can be found here:
+https://github.com/peterpih/tidydata/blob/master/features_info.txt
+
 
 ### Saved Data Set
 
