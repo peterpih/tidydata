@@ -6,7 +6,7 @@
 This assignment uses the data set from studying using smartphones to monitor human activity[1]
 https://github.com/peterpih/tidydata/blob/master/README.txt
 
-The objective is to take a larger data set and create a smaller more focussed data set with: summary variables of interest and more conveniently names variables using a script .R program which requires no intervention.
+The objective of this Final Project is to take a larger data set and create a smaller more focussed data set with: summary variables of interest and more conveniently names variables using a script .R program which requires no intervention.
 
 ### The Data Set
 
@@ -42,7 +42,6 @@ Step 4. Loop over subject (30) by activity (6) caluclating means to create a 180
 Step 5. Modify the variable names to make more descriptive.
 
 Step 6. Save the new data set
-
 
 ### Transformations to the Data Set
 
