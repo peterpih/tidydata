@@ -165,8 +165,15 @@ names(means_total) <- gsub("std","Std", names(means_total))
 #
 # add the "Average" prefix to all variable columns since they are the mean()s
 #
-names(means_total) <- gsub("^t","Averaget", names(means_total))
-names(means_total) <- gsub("^f","Averagef", names(means_total))
+names(means_total) <- gsub("^t","Time", names(means_total))        # measurements in the Time domain
+names(means_total) <- gsub("^f","Freq", names(means_total))        # measurements in the Frequency domain
+
+names(means_total) <- gsub("BodyBody","Body", names(means_total))  # BodyBody doesn't make sense and may be a typo
+
+names(means_total) <- gsub("^", "Mean", names(means_total))        # prepend Mean to all variables since they are means
+names(means_total) <- gsub("MeanSubject", "Subject", names(means_total))       # readjust
+names(means_total) <- gsub("MeanActivity", "Activity", names(means_total))     # readjust
+
 #
 # Save the results in  "tidydataset.txt"
 #
