@@ -125,8 +125,9 @@ https://github.com/peterpih/tidydata/blob/master/features_info.txt
 
 ### Saved Data Set
 
-The final data set is saved as tidaydata.txt.
-Whereas the original data set had multiple observations per activity per subject, this new data set has a unique summary(mean) observation for each measurement(feature) in each column and for each activity and each subject per row.
+The solution data set is saved as tidydata.txt.
+
+Whereas the original data set had multiple observations per activity per subject, this new data set has a unique summary(mean) observation for each measurement(feature) in each column and for each activity and each subject per row, as denotes a "tidy" data set.
 
 ### Footnotes
 
