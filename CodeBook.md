@@ -6,9 +6,11 @@
 This assignment uses the data set from studying using smartphones to monitor human activity[1]
 https://github.com/peterpih/tidydata/blob/master/README.txt
 
+The objective is to take a larger data set and create a smaller more focussed data set with: summary variables of interest and more conveniently names variables using a script .R program which requires no intervention.
+
 ### The Data Set
 
-The original data set consists of 8 files, a training set, a test set, a variable name file which defines 561 columns of data, and an activities label file which defines 6 activities.
+The original data set consists of 8 files, a "train" set, a "test" set, a variable name file which defines 561 columns of data, and an activities label file which defines 6 activities.
 
 - x_test.txt, y_test.txt, subject_test.txt  (3 files)
 - x_train.txt, y_train.txt, subject_train.txt  (3 files)
@@ -64,9 +66,13 @@ Modifications to variable names:
 - "Mag" becomes "Magnitude"
 - "mean" becomes "Mean"  (maintaining camelling and readability)
 - "std" becomes "Std"  (maintaining camelling and readability)
+- "f" prefix becomes "Freq"  (maintaining camelling and readability)
+- "t" prefix becomes "Time"  (maintaining camlling and readability)
 - "BodyBody" becomes "Body"  (it was thought this was typed in error)
 - Every variable name begins with "Mean", since the resulting data set are all averages of the original data set
 - Where appropriate, the axis of measurement (X,Y,Z) has been kept, preceeded by a "_" for easier reference
+
+The naming syntax for variables follows:
 
 
 Additional information for the original data set can be found here:
